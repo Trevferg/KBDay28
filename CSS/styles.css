@@ -224,4 +224,10 @@ p {
     transform: rotate(0);
     width: 50%;
   }
+
+  #cta {
+    text-align: center;
+    padding: 10% 10% 0;
+  }
+
 }
