@@ -1,74 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr. in DR</title>
-  <link rel="stylesheet" href="CSS/styles.css">
-  <link rel="icon" href="favicon.ico">
-  <link href="https://fonts.cdnfonts.com/css/sportesia" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Khi BDay</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v6.2.1/js/all.js"></script>
+
+   <!-- Javascript -->
+   <script src="JS/script.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
 
-<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
-  <img class="bgimg" src="Images/DRbeach.webp" alt="Khianna-img">
-  <div class="w3-display-middle w3-text-white w3-center name-sign">
-    <h1 class="w3-jumbo">Khianna's <br/> 28th Birthday <br/> Celebration</h1>
-  <h2>The Dr. in the DR</h2>
-    <h2><b>3.10.2023</b></h2>
-  </div>
-</header>
 <body>
 
+  <section class="colored-section" id="title">
 
-  <div class="top-container">
-    <div>
-    </div>
-  </div>
- 
-  <div class="middle-container">
-    <div class="profile">
-      <h2><strong>Hi.</strong></h2>
-      <p class="intro">I am <span class="age">28 years old</span> and I consider myself to be a <span class="LLL">life long learner</span>.</p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2><strong>My Skills.</strong></h2>
-      <div class="skill-row">
-        <img class="lightbulb" src="Images/lightbulb.png" alt="light bulb">
-        <h3>Problem Solver</h3>
-        <p>I am a <strong>manufacturing engineer</strong> by day and <strong>software engineer</strong> by night. Our objective is to locate the issue, fix the issue, and implement preventative measures.</p>
-      </div>
-      <div class="skill-row">
-        <img class="contentprod" src="Images/Contentproducer.png" alt="Content Creation">
-        <h3>Content Producer</h3>
-        <p>I would say I am the <strong>Man Behind the Camera</strong>. I am adept at photography and videography. As well as photo and video editing in Photoshop and Premiere Pro.</p>
-      </div>
-      <div class="skill-row">
-        <img class="taco" src="Images/taco.png" alt="taco">
-        <h3>Great Food Challenge</h3>
-        <p>I enjoy trying different foods from around the world. Especially, <strong>Mexican food</strong>!</p>
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you need a problem solved!</h3>
-      <p class="contact-message">Let's discuss some solutions. Maybe creates some issues. We can find some tacos also!!!</p>
-      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
-    </div>
-  </div>
+    <div class="container-fluid">
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/trever-ferguson/">
-      <img class="LinkedIn" src="Images/linkedin.png" alt="LinkedIn"></a>
-    <a class="footer-link" href="https://www.instagram.com/_treverferguson/">
-      <img class="Instagram" src="Images/instagram.png" alt="Instagram"></a>
-    <a class="footer-link" href="https://twitter.com/_TreverF">
-      <img class="Twitter" src="Images/twitter.png" alt="Twitter"></a>  
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p class="copyright">© 2023 Trever Ferguson</p>
+      <!-- Nav Bar -->
+    
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        
+        <a class="navbar-brand" href="">Khianna</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#quotes">Quotes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#itinerary">Itinerary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact Me</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+      <!-- Top Button -->
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading title-h1">Oh Sip It's My Birthday!</h1>
+          <!-- <button type="button" class="btn btn-dark btn-lg download-button"><span><i class="fa-brands fa-apple"></i></span> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><span><i class="fa-brands fa-google-play"></i></span> Download</button> -->
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/IMG_9876.png" alt="iphone-mockup">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Features -->
+
+  <section class="grey-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="features-box col-lg-4">
+          <i class="icon fa-solid fa-music fa-6x"></i>
+          <h3 class="features-title">Karaoke</h3>
+          <p>It isn't a party, unless there is karaoke!</p>
+        </div>
+        <div class="features-box col-lg-4">
+          <i class="icon fa-solid fa-martini-glass-citrus fa-6x"></i>
+          <h3 class="features-title">Margaritas</h3>
+          <p>The margaritas made me do it!</p>
+        </div>
+        <div class="features-box col-lg-4">
+          <i class="icon fa-solid fa-utensils fa-6x"></i>
+          <h3 class="features-title">Food</h3>
+          <p>If you love to eat, you're with the right crew!</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="quotes">
+
+    <div id="quotes-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2500">
+          <h2>It's a PARTY (not) in the USA! <span><i class="fa-solid fa-flag-usa"></i></span></h2>
+          <img class="quotes-image" src="images/Reau.jpg" alt="reau-profile">
+          <em>Reau</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="quotes-text">I'm getting a lemon drop & drop it low & pick it up slow</h2>
+          <img class="quotes-image" src="images/laina.jpg" alt="laina-profile">
+          <em>Laina</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="quotes-text">I'm in the DR for 2 things only: picking up women and drinking with the homies</h2>
+          <img class="quotes-image" src="images/smoovalations.jpg" alt="laina-profile">
+          <em>Smoovalations 11:1</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="quotes-text">It's time to get fucked up!</h2>
+          <img class="quotes-image" src="images/cierra.jpg" alt="laina-profile">
+          <em>Cierra</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="quotes-text">The horses are galloping!</h2>
+          <img class="quotes-image" src="images/lorenzo.jpg" alt="laina-profile">
+          <em>Lorenzo</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="quotes-text">Put them horses back in the stable.</h2>
+          <img class="quotes-image" src="images/smoove.jpg" alt="laina-profile">
+          <em>Smoove</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="quotes-text">Dang, who ordered another round of shots?</h2>
+          <img class="quotes-image" src="images/keyana.jpg" alt="laina-profile">
+          <em>Keyana</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="quotes-text">The best part of waking up is liquor in my cup!</h2>
+          <img class="quotes-image" src="images/kj.jpg" alt="laina-profile">
+          <em>KJ</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="quotes-text">It's about to get real Marriottish! &#128527;</h2>
+          <img class="quotes-image" src="images/trever.jpg" alt="laina-profile">
+          <em>Trever</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="itinerary">
+
+    <h2 class="section-heading">A Plan for the Trip</h2>
+    <p>Plans are flexible and free...</p>
+
+  <div class="row">
+    
+    <div class="itinerary-column col-lg-4 col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h3>Monday</h3>
+        </div>
+        <div class="card-body">
+          <h2>Arrival</h2>
+          <p>Wear themed T-shirts to the DR</p>
+          <p>"Lounge Day" - relax, explore, recharge</p>
+          <p>Dinner - Agave @7PM</p>
+          <p>Circus Show @9:30PM</p>
+          <p>Karaoke @10:15PM</p>
+          <div class="d-grid gap-2">
+          <button class="btn btn-lg btn-block btn-light" type="button" ></button></div>
+        </div>
+      </div>
+    </div>
+      
+      <div class="itinerary-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Tuesday</h3>
+          </div>
+          <div class="card-body">
+            <h2>Sip & Swim</h2>
+            <p>Breakfast - rehydrate and refuel</p>
+            <p>"Pool Party" hosted by Us</p>
+            <p>Dinner - Oregano @7PM</p>
+            <p>Dominican Show @9:30PM</p>
+            <p>Karaoke @10:15PM</p>
+            <div class="d-grid gap-2">
+            <button class="btn btn-lg btn-block btn-light" type="button"></button></div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="itinerary-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Wednesday</h3>
+          </div>
+          <div class="card-body">
+            <h2>Sea Y'all at the Beach</h2>
+            <p>Breakfast - rehydrate and refuel</p>
+            <p>"Beach Party" hosted by Us</p>
+            <p>Margarita Cocktails and Tacos Class @12:30PM</p>
+            <p>Dinner - The Grill @7PM</p>
+            <div class="d-grid gap-2">
+            <button class="btn btn-lg btn-block btn-light" type="button"></button></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="itinerary-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Thursday</h3>
+          </div>
+          <div class="card-body">
+            <h2>We Outside Outside</h2>
+            <p>Breakfast - rehydrate and refuel</p>
+            <p>Jet Skissss</p>
+            <p>Dinner - Flavor Market @7PM</p>
+            <p>Unlimited App Usage</p>
+            <div class="d-grid gap-2">
+            <button class="btn btn-lg btn-block btn-light" type="button"></button></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="itinerary-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Friday</h3>
+          </div>
+          <div class="card-body">
+            <h2>It's My Birthday!</h2>
+            <p>Breakfast - rehydrate and refuel DRINK WATER</p>
+            <p>Cocktail Hour prior to dinner</p>
+            <p>Birthday Dinner - Lobster House (Wear Blue)</p>
+            <p>Finish the night off with a banger!</p>
+            <div class="d-grid gap-2">
+            <button class="btn btn-lg btn-block btn-light" type="button"></button></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="itinerary-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Saturday</h3>
+          </div>
+          <div class="card-body">
+            <h2>Departure</h2>
+            <p>Priority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <div class="d-grid gap-2">
+            <button class="btn btn-lg btn-block btn-light" type="button"></button></div>
+          </div>
+        </div>
+      </div>
+      
   </div>
+  
+
+</section>
+
+<!-- Call to Action -->
+
+<section class="colored-section" id="cta">
+
+  <h3 class="big-heading">Thank you for celebrating my birthday with me!</h3>
+  <div>
+    <img class="cta-image" src="images/IMG_8283.png" alt="khianna-peace-sign">
+  </div>
+</section>
+
+
+<!-- Footer -->
+
+<footer class="white-section" id="footer">
+  <a href="https://www.facebook.com/khianna.anthony/"><i class="icons fa-brands fa-facebook"></i></a>
+  <a href="https://www.instagram.com/dr.khianna_anthony/"><i class="icons fa-brands fa-instagram"></i></a>
+  
+  <p>© Copyright Trever Ferguson</p>
+</footer>
+
 
 </body>
+
 </html>
