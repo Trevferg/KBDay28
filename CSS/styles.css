@@ -121,7 +121,7 @@ p {
   color: #002ac3
 }
 
-/* Testimonial Section */
+/* Quotes Section */
 #quotes {
   text-align: center;
   color: #fff;
@@ -131,6 +131,13 @@ p {
   width: 8%;
   border-radius: 100%;
   margin: 20px;
+}
+
+.quote-image {
+  width: 80%;
+  margin: 20px;
+  text-align: center;
+  border: 10px solid #00d1e9;
 }
 
 .carousel-item {
@@ -149,7 +156,7 @@ p {
 }
 
 
-/* Pricing Section */
+/* Itinerary Section */
 #itinerary {
   padding: 50px;
   text-align: center;
@@ -167,8 +174,19 @@ p {
   background-color: #a3f2fb;
 }
 
-.r {
-  color: #fff;
+.ImageStyle{
+  margin: 10px;
+  max-height: 36vw;
+  min-height: 18vw;
+  max-width: 54vw;
+  min-width: 13.5vw;
+  border: 20px solid #00ddf6;
+  border-radius: 10px;
+}
+
+.itinerary-images {
+  background-color: #00a4f6;
+  border-radius: 20px;
 }
 
 /* Call to Action Section */
@@ -201,7 +219,7 @@ p {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: rgba(135, 221, 248, 0.718)64fa; /* Set a background color */
+  background-color: rgba(77, 213, 255, 0.756)64fa; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
@@ -224,10 +242,4 @@ p {
     transform: rotate(0);
     width: 50%;
   }
-
-  #cta {
-    text-align: center;
-    padding: 10% 10% 0;
-  }
-
 }
