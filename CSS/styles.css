@@ -250,4 +250,13 @@ hr {
     transform: rotate(0);
     width: 50%;
   }
+
+  .ImageStyle{
+    width: 60%;
+  }
+
+  .cta-image {
+    width: 70%;
+    text-align: center;
+  }
 }
