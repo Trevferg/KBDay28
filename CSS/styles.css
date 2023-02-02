@@ -13,6 +13,14 @@ p {
   font-family: "Montserrat";
 }
 
+hr {
+  color: #6f6f6f;
+  border: 5px solid #555;
+  margin: 20px 50px 0;
+  
+  border-radius: 20px;
+}
+
 /* Headings */
 .big-heading {
   font-size: 3.5rem;  
@@ -208,7 +216,7 @@ p {
 
 .icons {
   padding: 10px 10px;
-  color: #0064fa
+  color: #00a4f6
 }
 
 #myBtn {
