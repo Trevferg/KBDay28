@@ -168,6 +168,7 @@ birthday-day {
 
 .card-header {
   background-color: #00d1e9;
+  color: #fff;
 }
 
 .card-body {
@@ -176,9 +177,9 @@ birthday-day {
 
 .ImageStyle{
   margin: 10px;
-  max-height: 36vw;
+  max-height: 45vw;
   min-height: 18vw;
-  max-width: 54vw;
+  max-width: 60vw;
   min-width: 13.5vw;
   border: 20px solid #00ddf6;
   border-radius: 10px;
@@ -233,6 +234,23 @@ birthday-day {
 
 @media (max-width: 1028px) {
 
+  h3 {
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Montserrat";
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+  }
+
+  p {
+    color: #6f6f6f;
+    font-size: 0.75rem;
+    font-family: "Montserrat";
+  }
+
   #title {
     text-align: center;
   }
@@ -244,8 +262,10 @@ birthday-day {
   }
 
   .ImageStyle{
-    width: 60%;
+    max-height: 54vw;
+    max-width: 72vw;
   }
+
 
   #cta {
     text-align: center;
