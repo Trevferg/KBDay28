@@ -152,18 +152,6 @@ hr {
   padding: 7% 15%;
 }
 
-#press {
-  background-color: #ef8127;
-  text-align: center;
-  padding-bottom: 3%;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
-
 /* Itinerary Section */
 #itinerary {
   padding: 50px;
@@ -172,6 +160,10 @@ hr {
 
 .itinerary-column {
   padding: 3% 2%;
+}
+
+birthday-day {
+  border: 5px solid #fff201;
 }
 
 .card-header {
@@ -253,6 +245,11 @@ hr {
 
   .ImageStyle{
     width: 60%;
+  }
+
+  #cta {
+    text-align: center;
+    padding: 10% 10% 0;
   }
 
   .cta-image {
