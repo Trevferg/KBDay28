@@ -162,6 +162,10 @@ hr {
   padding: 3% 2%;
 }
 
+.empty-line {
+  color: #a3f2fb;
+}
+
 birthday-day {
   border: 5px solid #fff201;
 }
@@ -178,9 +182,7 @@ birthday-day {
 .ImageStyle{
   margin: 10px;
   max-height: 45vw;
-  min-height: 18vw;
   max-width: 60vw;
-  min-width: 13.5vw;
   border: 20px solid #00ddf6;
   border-radius: 10px;
 }
